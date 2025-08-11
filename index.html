@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Halaman Login</title>
+    <!-- Memuat Tailwind CSS untuk styling -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- Menggunakan font Inter untuk tampilan yang lebih modern -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      /* Mengaplikasikan font Inter ke seluruh halaman */
+      body {
+        font-family: "Inter", sans-serif;
+      }
+    </style>
+  </head>
+  <body class="bg-gray-100">
+    <!-- Kontainer utama untuk menengahkan form login -->
+    <div class="flex items-center justify-center min-h-screen">
+      <!-- Kartu Form Login -->
+      <div class="bg-white p-8 rounded-xl shadow-lg w-full max-w-sm">
+        <!-- Judul Form -->
+        <h2 class="text-2xl font-bold mb-6 text-center text-gray-800">
+          Selamat Datang
+        </h2>
+
+        <!-- Form -->
+        <form>
+          <!-- Input Email -->
+          <div class="mb-4">
+            <label
+              for="email"
+              class="block text-gray-700 text-sm font-medium mb-2"
+              >Alamat Email</label
+            >
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="anda@contoh.com"
+              class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 transition duration-200"
+            />
+          </div>
+
+          <!-- Input Password -->
+          <div class="mb-6">
+            <label
+              for="password"
+              class="block text-gray-700 text-sm font-medium mb-2"
+              >Password</label
+            >
+            <input
+              type="password"
+              id="password"
+              name="password"
+              placeholder="••••••••"
+              class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 transition duration-200"
+            />
+          </div>
+
+          <!-- Tombol Submit -->
+          <button
+            type="submit"
+            class="w-full bg-blue-600 text-white font-bold py-2 px-4 rounded-lg hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 transition duration-200"
+          >
+            Masuk
+          </button>
+        </form>
+
+        <!-- TEtTe3kwdV9nMHRfdGgzX2ZsNGd9 -->
+        <div class="text-center mt-6">
+          <a href="#" class="text-sm text-blue-600 hover:underline"
+            >Lupa Password?</a
+          >
+        </div>
+
+        <div class="text-center mt-2">
+          <p class="text-sm text-gray-600">
+            Belum punya akun?
+            <a href="#" class="font-medium text-blue-600 hover:underline"
+              >Daftar di sini</a
+            >
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
